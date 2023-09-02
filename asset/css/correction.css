@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Epilogue", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+/* .dummy {
+  background-color: blue;
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .dummy {
+    display: none;
+    background-color: red;
+  }
+  .dummy h1 {
+    font-size: 40px;
+    color: yellow;
+
+    visibility: visible;
+  }
+}
+@media (min-width: 769px) {
+  .dummy {
+    background-color: yellow;
+  }
+  .dummy h1 {
+    font-size: 30px;
+    color: black;
+  }
+} */
+#banner {
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: red; */
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.text_session {
+  margin-top: 100px;
+  width: 45%;
+  /* background-color: purple; */
+}
+.image_session {
+  width: 45%;
+  margin-top: 80px;
+  /* background-color: green; */
+}
+
+.text_session h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.text_session p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  /* line-height: 66px; */
+}
+.parnters img {
+  width: 120px;
+  height: 50px;
+  object-fit: contain;
+  margin: 5px 0;
+}
+.partners {
+  margin: 50px;
+}
+
+@media (max-width: 800px) {
+  #banner {
+    display: block;
+  }
+  .for_desktop {
+    display: none;
+  }
+  .text_session h1 {
+    font-size: 130px;
+    margin-bottom: 20px;
+  }
+  .text_session p {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .image_session,
+  .text_session {
+    width: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+  .for_mobile {
+    display: none;
+    line-height: 66;
+  }
+}
